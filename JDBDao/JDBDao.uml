@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XPD:PROJECT xmlns:XPD="http://www.staruml.com" version="1">
+<XPD:HEADER>
+<XPD:SUBUNITS>
+</XPD:SUBUNITS>
+<XPD:PROFILES>
+</XPD:PROFILES>
+</XPD:HEADER>
+<XPD:BODY>
+<XPD:OBJ name="DocumentElement" type="UMLProject" guid="KtC0NWh790C/zoy841IiFwAA">
+<XPD:ATTR name="Title" type="string">Untitled</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">5</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLPackage" guid="+DGufTuKPkS6mYHh/L4CtQAA">
+<XPD:ATTR name="Name" type="string">com.leowang.dao.common</XPD:ATTR>
+<XPD:REF name="Namespace">KtC0NWh790C/zoy841IiFwAA</XPD:REF>
+<XPD:ATTR name="#OwnedElements" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="A6GZivM3G0aOAi4OXpGbEwAA">
+<XPD:ATTR name="Name" type="string">Connection</XPD:ATTR>
+<XPD:REF name="Namespace">+DGufTuKPkS6mYHh/L4CtQAA</XPD:REF>
+<XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="syDQS/UCMkCpT2sA+aVN2gAA">
+<XPD:ATTR name="Name" type="string">getConnection</XPD:ATTR>
+<XPD:REF name="Owner">A6GZivM3G0aOAi4OXpGbEwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="uhARsGKlw0iUmFGrQv3B/AAA">
+<XPD:ATTR name="Name" type="string">getConnection(String dataBaseName)</XPD:ATTR>
+<XPD:REF name="Owner">A6GZivM3G0aOAi4OXpGbEwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="GchyOypI2EK2xTJ6Zp3MogAA">
+<XPD:ATTR name="Name" type="string">dataBases</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">DruidDataSource</XPD:ATTR>
+<XPD:REF name="Owner">A6GZivM3G0aOAi4OXpGbEwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="CiLgUAHde0yVeJXMEnFoUgAA">
+<XPD:ATTR name="Name" type="string">LeoWangDataBase</XPD:ATTR>
+<XPD:REF name="Namespace">+DGufTuKPkS6mYHh/L4CtQAA</XPD:REF>
+<XPD:ATTR name="#Attributes" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="vCcd3PGU5kS7aaIrLwXBJAAA">
+<XPD:ATTR name="Name" type="string">dataBase</XPD:ATTR>
+<XPD:REF name="Owner">CiLgUAHde0yVeJXMEnFoUgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="ZrvH6Zl+b0a8hcm9oKQs5wAA">
+<XPD:ATTR name="Name" type="string">dataBaseType</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">DataBaseType</XPD:ATTR>
+<XPD:REF name="Type_">JJy1kxLNtU+7OGURUJ1jVAAA</XPD:REF>
+<XPD:REF name="Owner">CiLgUAHde0yVeJXMEnFoUgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="c3gSLbarZUmJyC5/txj8XAAA">
+<XPD:ATTR name="Name" type="string">tables</XPD:ATTR>
+<XPD:REF name="Owner">CiLgUAHde0yVeJXMEnFoUgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLEnumeration" guid="JJy1kxLNtU+7OGURUJ1jVAAA">
+<XPD:ATTR name="Name" type="string">DataBaseType</XPD:ATTR>
+<XPD:REF name="Namespace">+DGufTuKPkS6mYHh/L4CtQAA</XPD:REF>
+<XPD:ATTR name="#TypedFeatures" type="integer">1</XPD:ATTR>
+<XPD:REF name="TypedFeatures[0]">ZrvH6Zl+b0a8hcm9oKQs5wAA</XPD:REF>
+<XPD:ATTR name="#Literals" type="integer">4</XPD:ATTR>
+<XPD:OBJ name="Literals[0]" type="UMLEnumerationLiteral" guid="/gFXCfQBbUasLpDM3v5UcAAA">
+<XPD:ATTR name="Name" type="string">ORACLE</XPD:ATTR>
+<XPD:REF name="Enumeration">JJy1kxLNtU+7OGURUJ1jVAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Literals[1]" type="UMLEnumerationLiteral" guid="Qd/uP4+Y9E2x9YH1NSRlYwAA">
+<XPD:ATTR name="Name" type="string">DB2</XPD:ATTR>
+<XPD:REF name="Enumeration">JJy1kxLNtU+7OGURUJ1jVAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Literals[2]" type="UMLEnumerationLiteral" guid="Z362Jpffx02k0cfVhLXPUwAA">
+<XPD:ATTR name="Name" type="string">SQLSERVER</XPD:ATTR>
+<XPD:REF name="Enumeration">JJy1kxLNtU+7OGURUJ1jVAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Literals[3]" type="UMLEnumerationLiteral" guid="uDclPuE/+0OuiHptlI+n4gAA">
+<XPD:ATTR name="Name" type="string">SQLITE</XPD:ATTR>
+<XPD:REF name="Enumeration">JJy1kxLNtU+7OGURUJ1jVAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLPackage" guid="O4+HaV8nnEu0VEgwYnY4jwAA">
+<XPD:ATTR name="Name" type="string">com.leowang.dao</XPD:ATTR>
+<XPD:REF name="Namespace">KtC0NWh790C/zoy841IiFwAA</XPD:REF>
+<XPD:ATTR name="#OwnedElements" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLInterface" guid="u9CMKAkgE0Go3PyDfwzoGgAA">
+<XPD:ATTR name="Name" type="string">JDBDao</XPD:ATTR>
+<XPD:REF name="Namespace">O4+HaV8nnEu0VEgwYnY4jwAA</XPD:REF>
+<XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="3tyJyRHLDk+D7lRut/G/kwAA">
+<XPD:ATTR name="Name" type="string">initDataBase</XPD:ATTR>
+<XPD:REF name="Owner">u9CMKAkgE0Go3PyDfwzoGgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLInterface" guid="FGKs0GuJg0iRRRDgBYr5WgAA">
+<XPD:ATTR name="Name" type="string">InitJDBDao</XPD:ATTR>
+<XPD:REF name="Namespace">O4+HaV8nnEu0VEgwYnY4jwAA</XPD:REF>
+<XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="w2IORaLROEebLk4rKfG2+wAA">
+<XPD:ATTR name="Name" type="string">getDataBaseTables</XPD:ATTR>
+<XPD:REF name="Owner">FGKs0GuJg0iRRRDgBYr5WgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="56M1j+EMKUW26z4YjnR9+AAA">
+<XPD:ATTR name="Name" type="string">getDataSourceParam</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:REF name="Owner">FGKs0GuJg0iRRRDgBYr5WgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLInterface" guid="phytkDxHEEeXDOGrUTLZ4wAA">
+<XPD:ATTR name="Name" type="string">ManageSQL</XPD:ATTR>
+<XPD:REF name="Namespace">O4+HaV8nnEu0VEgwYnY4jwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLPackage" guid="FJBfza+wY0ada81k7GmvNAAA">
+<XPD:ATTR name="Name" type="string">com.leowang.dao.abstract</XPD:ATTR>
+<XPD:REF name="Namespace">KtC0NWh790C/zoy841IiFwAA</XPD:REF>
+<XPD:ATTR name="#OwnedElements" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="hVRAMbQGfkSN1e2n3G5YOgAA">
+<XPD:ATTR name="Name" type="string">AbstractJDBDao</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
+<XPD:REF name="Namespace">FJBfza+wY0ada81k7GmvNAAA</XPD:REF>
+<XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="ysLsR7FgtkGgbWIAe7W4LwAA">
+<XPD:ATTR name="Name" type="string">static</XPD:ATTR>
+<XPD:REF name="Owner">hVRAMbQGfkSN1e2n3G5YOgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#Attributes" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="nVS37afdGkm4S3+w+GHTpwAA">
+<XPD:ATTR name="Name" type="string">dataBaseName</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkProtected</XPD:ATTR>
+<XPD:REF name="Owner">hVRAMbQGfkSN1e2n3G5YOgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="MTJtSjr9xU6L/8RjSbXIsQAA">
+<XPD:ATTR name="Name" type="string">initFlage</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:REF name="Owner">hVRAMbQGfkSN1e2n3G5YOgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="vK1WQtZ6QEW+934Rrw/wqAAA">
+<XPD:ATTR name="Name" type="string">AbstractInitJDBDao</XPD:ATTR>
+<XPD:REF name="Namespace">FJBfza+wY0ada81k7GmvNAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="gmLb/YVyHE6ZhUuUgDfEUgAA">
+<XPD:ATTR name="Name" type="string">AbstractManageSQL</XPD:ATTR>
+<XPD:REF name="Namespace">FJBfza+wY0ada81k7GmvNAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[3]" type="UMLPackage" guid="Z3XSDoDo1EeXm7h1UrqvawAA">
+<XPD:ATTR name="Name" type="string">com.leowang.dao.impl</XPD:ATTR>
+<XPD:REF name="Namespace">KtC0NWh790C/zoy841IiFwAA</XPD:REF>
+<XPD:ATTR name="#OwnedElements" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="sEqWCqu6506dAmy+EfGIlQAA">
+<XPD:ATTR name="Name" type="string">JDBDaoOracle</XPD:ATTR>
+<XPD:REF name="Namespace">Z3XSDoDo1EeXm7h1UrqvawAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="tmvTGyCPS0ii3M1rmdh80gAA">
+<XPD:ATTR name="Name" type="string">InitJDBDaoOracle</XPD:ATTR>
+<XPD:REF name="Namespace">Z3XSDoDo1EeXm7h1UrqvawAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="LFoj0Gc6VUWvuXxEfxh74QAA">
+<XPD:ATTR name="Name" type="string">ManageSQLOracle</XPD:ATTR>
+<XPD:REF name="Namespace">Z3XSDoDo1EeXm7h1UrqvawAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[4]" type="UMLPackage" guid="uJnao6X/ikmB8lV4ZRayIAAA">
+<XPD:ATTR name="Name" type="string">com.leowang.dao.model</XPD:ATTR>
+<XPD:REF name="Namespace">KtC0NWh790C/zoy841IiFwAA</XPD:REF>
+<XPD:ATTR name="#OwnedElements" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="38T3ryjIJUuc9debiMieMwAA">
+<XPD:ATTR name="Name" type="string">Table</XPD:ATTR>
+<XPD:REF name="Namespace">uJnao6X/ikmB8lV4ZRayIAAA</XPD:REF>
+<XPD:ATTR name="#Attributes" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="BFNOeN2keE2hQVWNZoHrYAAA">
+<XPD:ATTR name="Name" type="string">PK</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="Multiplicity" type="string">0..1</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="Owner">38T3ryjIJUuc9debiMieMwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="uO+wn3TthE69pvZS+mowSgAA">
+<XPD:ATTR name="Name" type="string">notNullColumns</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">hashtable</XPD:ATTR>
+<XPD:REF name="Owner">38T3ryjIJUuc9debiMieMwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="gDpKGDsK00+KBfXV4DK4igAA">
+<XPD:ATTR name="Name" type="string">nullColumns</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">hashtable</XPD:ATTR>
+<XPD:REF name="Owner">38T3ryjIJUuc9debiMieMwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="6h+UcqRi9EWY7+jvbgCsjwAA">
+<XPD:ATTR name="Name" type="string">Column</XPD:ATTR>
+<XPD:REF name="Namespace">uJnao6X/ikmB8lV4ZRayIAAA</XPD:REF>
+<XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="A8gxBACpeUGmazKpkMctfwAA">
+<XPD:ATTR name="Name" type="string">name</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:REF name="Owner">6h+UcqRi9EWY7+jvbgCsjwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="DyzsjrZhx0O6a3sFHcPSEQAA">
+<XPD:ATTR name="Name" type="string">type</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:REF name="Owner">6h+UcqRi9EWY7+jvbgCsjwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="GGExgiGlLkWn1n3o+J89aAAA">
+<XPD:ATTR name="Name" type="string">length</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:REF name="Owner">6h+UcqRi9EWY7+jvbgCsjwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="8Du+z9TyOkyMkhIndAPVAwAA">
+<XPD:ATTR name="Name" type="string">null</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">bool</XPD:ATTR>
+<XPD:REF name="Owner">6h+UcqRi9EWY7+jvbgCsjwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="oBh06wLvNUa5t8z4FwoRJwAA">
+<XPD:ATTR name="Name" type="string">pk</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">bool</XPD:ATTR>
+<XPD:REF name="Owner">6h+UcqRi9EWY7+jvbgCsjwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:BODY>
+</XPD:PROJECT>
